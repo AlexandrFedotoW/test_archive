@@ -1,0 +1,8 @@
+@startuml
+actor User
+entity System
+
+User -> System: Запрос данных
+System -> System: Обработка запроса
+System --> User: Ответ с данными
+@enduml
